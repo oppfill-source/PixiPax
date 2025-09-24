@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.bobbidiboocleaning.com
+
+# Sitemaps
+Sitemap: https://www.bobbidiboocleaning.com/sitemap.xml

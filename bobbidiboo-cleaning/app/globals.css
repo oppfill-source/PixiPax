@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #ffffff;
+  --fg: #0f172a;
+}
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  color: var(--fg);
+  background: var(--bg);
+}
+
+.container {
+  @apply mx-auto max-w-7xl px-6;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center rounded-md bg-brand px-4 py-2 font-medium text-white shadow-sm hover:bg-brand-dark focus:outline-none focus:ring-2 focus:ring-brand focus:ring-offset-2;
+}
+
